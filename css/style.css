@@ -1,0 +1,35 @@
+.wrapper {
+  width: 1344px;
+  margin: 0 auto; }
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table; }
+
+.header {
+  background-color: #e16c03;
+  position: relative;
+  margin-top: 92px; }
+
+.titulo {
+  list-style: none;
+  padding: 0; }
+
+.titulo {
+  float: left;
+  margin-top: 40px;
+  margin-left: 80px;
+  margin-bottom: 40px;
+  color: #fff;
+  font-size: 28px; }
+
+.titulo li::after {
+  content: '|';
+  font-size: 48px;
+  color: #fff;
+  margin-left: 23px; }
+
+.logo {
+  float: right;
+  width: 22%; }

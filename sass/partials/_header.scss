@@ -1,0 +1,33 @@
+@import 'global';
+
+.header {
+    background-color: $color;
+    position: relative;
+    margin-top: 92px;
+}
+
+.titulo {
+    list-style: none;
+    padding: 0;
+}
+
+.titulo {
+    float: left;
+    margin-top: 40px;
+    margin-left: 80px;
+    margin-bottom: 40px;
+    color: $letra;
+    font-size: 28px;
+}
+
+.titulo li::after {
+    content: '|';
+    font-size: 48px;
+    color: $letra;
+    margin-left: 23px;
+}
+
+.logo {
+    float: right;
+    width: 22%;
+}
