@@ -33,3 +33,47 @@
 .logo {
   float: right;
   width: 22%; }
+
+.tabs {
+  width: 800px;
+  margin-top: 190px;
+  margin-left: 170px; }
+
+.tabs-tablist {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  margin-bottom: -1px; }
+
+.tabs-tablist-item {
+  display: block;
+  padding: 10px 20px;
+  color: #e16c03;
+  text-decoration: none;
+  font-weight: 700;
+  background-color: #ffc99f;
+  border-radius: 5px 5px 0 0;
+  border: 1px solid #999; }
+
+h3 {
+  font-size: 40px;
+  color: #fff; }
+
+p {
+  font-size: 20px;
+  color: #fff; }
+
+.tabs-content {
+  padding: 20px;
+  border: 1px solid #999;
+  background-color: #e16c03; }
+
+/*Clases manejadas con JS */
+.js-content {
+  display: none; }
+
+.js-active {
+  background-color: #e16c03;
+  border-bottom: 1px solid #e16c03;
+  color: #fff; }
