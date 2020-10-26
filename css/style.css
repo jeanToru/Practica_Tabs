@@ -52,9 +52,7 @@
   color: #e16c03;
   text-decoration: none;
   font-weight: 700;
-  background-color: #ffc99f;
-  border-radius: 5px 5px 0 0;
-  border: 1px solid #999; }
+  background-color: #ffc99f; }
 
 h3 {
   font-size: 40px;
@@ -66,7 +64,6 @@ p {
 
 .tabs-content {
   padding: 20px;
-  border: 1px solid #999;
   background-color: #e16c03; }
 
 /*Clases manejadas con JS */
@@ -77,3 +74,10 @@ p {
   background-color: #e16c03;
   border-bottom: 1px solid #e16c03;
   color: #fff; }
+
+.footer {
+  background-color: #e16c03;
+  margin-top: 294px; }
+
+.icono {
+  float: right; }
